@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formularios</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color: darkcyan;
+        }
+        h1{color: rgb(2, 15, 15);
+            text-align: center;
+            font-family: 'Shantell Sans', cursive;
+        }
+        form{
+            width: 300px;
+            background-color: aliceblue;
+            padding: 15px;
+            border-radius: 10px;
+            border: 5px solid black;
+            border-style: double;
+        }
+        .campo{
+            color: brown;
+            border;
+            border-width: 2px;
+            border-style: dotted;
+            border-color: coral;
+            padding: 5px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: greenyellow;
+        }
+    </style>
+</head>
+
+    <center><h1>Formulario de contacto</h1></center>
+        <center><form action="mailto:thelearnkeeper@gmail.com" method="post">
+            <label for="nombre">Nombre Completo:</label>
+            <br>
+                <input class="campo" type="text" id="nombre" name="nombre" placeholder="Digite su nombre completo">
+                <br><br>
+            <label for="apellido1">Primer apellido:</label>
+            <br>
+                <input class="campo" type="text"id=apellido1 name="apellido1" placeholder="Digite su primer apellido">
+                <br><br>
+            <label for="apellido2">Segundo apellido:</label>
+            <br>
+                <input class="campo" type="text" id="apellido2" name="apellido2" placeholder="Digite su segundo apellido">
+                <br><br>
+            <label for="clave">Clave</label>
+            <br>
+            <input type="password" class="campo" id="clave" name="clave" placeholder="Digite aqui su clave" required>
+            <br><br>
+            <label for="correo">Correo Electrónico</label>
+            <input type="text" class="correo" id="correo" name="correo" placeholder="Digite su correo electronico" required>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form></center>
+        
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc5T1cfdg62Sq5dfn2nEW33MPEZtKU2YTyfTbXj-DfNl357KA/viewform?embedded=true" width="660px" height="2000px" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+            </html>
